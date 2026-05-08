@@ -1,0 +1,28 @@
+{
+  "m_Version": 3,
+  "Enabled": 1,
+  "Weight": 294,
+  "MissionMaxTime": 3600,
+  "MissionName": "NWAF Airdrop",
+  "Difficulty": 0,
+  "Objective": 0,
+  "Reward": "",
+  "ShowNotification": 0,
+  "Height": 450,
+  "DropZoneHeight": 450,
+  "Speed": 25,
+  "DropZoneSpeed": 25,
+  "Container": "Random",
+  "FallSpeed": 0,
+  "DropLocation": {
+    "x": 4323.364746,
+    "z": 10216.667969,
+    "Name": "Airdrop NWAF",
+    "Radius": 150
+  },
+  "Infected": [],
+  "ItemCount": -1,
+  "InfectedCount": -1,
+  "AirdropPlaneClassName": "",
+  "Loot": []
+}

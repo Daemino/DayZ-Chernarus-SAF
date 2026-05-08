@@ -1,0 +1,1353 @@
+{
+  "m_Version": 32,
+  "Enabled": 1,
+  "FormationScale": 1.2,
+  "DespawnTime": 900,
+  "RespawnTime": 1800 ,
+  "MinDistRadius": 100,
+  "MaxDistRadius": 600,
+  "DespawnRadius": 600,
+  "AccuracyMin": 0.70,
+  "AccuracyMax": 0.82,
+  "ThreatDistanceLimit": 300,
+  "NoiseInvestigationDistanceLimit": 600,
+  "MaxFlankingDistance": 200,
+  "EnableFlankingOutsideCombat": -1,
+  "DamageMultiplier": -1,
+  "DamageReceivedMultiplier": -1,
+  "ShoryukenChance": 0,
+  "ShoryukenDamageMultiplier": 0,
+  "LoadBalancingCategories": {
+    "ObjectPatrol": [],
+    "Example": [],
+    "Survivor": [],
+    "MilitaryRoaming": [],
+    "HelicopterWreck": [],
+    "ContaminatedArea": [],
+    "Quest": [],
+    "Global": [
+      {
+        "MinPlayers": 0,
+        "MaxPlayers": 20,
+        "MaxPatrols": 40
+      }
+    ],
+    "MilitaryStatic": [],
+    "Patrol": []
+  },
+  "Patrols": [
+    {
+      "Name": "AI-NWAF-West-I",
+      "Persist": 0,
+      "Faction": "Shamans",
+      "Formation": "RANDOM",
+      "FormationScale": 1.2,
+      "FormationLooseness": 1,
+      "Loadout": "TTSKOLoadout",
+      "Units": [],
+      "NumberOfAI": 4,
+      "NumberOfAIMax": 5,
+      "Behaviour": "LOOP_OR_ALTERNATE",
+      "LootingBehaviour": "NONE",
+      "Speed": "WALK",
+      "UnderThreatSpeed": "JOG",
+      "DefaultStance": "STANDING",
+      "DefaultLookAngle": 0,
+      "CanBeLooted": 1,
+      "LootDropOnDeath": "",
+      "UnlimitedReload": 1,
+      "SniperProneDistanceThreshold": 150,
+      "AccuracyMin": 0.70,
+      "AccuracyMax": 0.82,
+      "ThreatDistanceLimit": -1,
+      "NoiseInvestigationDistanceLimit": -1,
+      "MaxFlankingDistance": -1,
+      "EnableFlankingOutsideCombat": -1,
+      "DamageMultiplier": -1,
+      "DamageReceivedMultiplier": -1,
+      "HeadshotResistance": 0,
+      "ShoryukenChance": 0,
+      "ShoryukenDamageMultiplier": 0,
+      "CanSpawnInContaminatedArea": 0,
+      "CanBeTriggeredByAI": 0,
+      "MinDistRadius": -1,
+      "MaxDistRadius": -1,
+      "DespawnRadius": -1,
+      "MinSpreadRadius": 1,
+      "MaxSpreadRadius": 2,
+      "Chance": 1,
+      "DespawnTime": -1,
+      "RespawnTime": -2,
+      "LoadBalancingCategory": "Global",
+      "ObjectClassName": "",
+      "WaypointInterpolation": "CatmullRom",
+      "UseRandomWaypointAsStartPoint": 1,
+      "Waypoints": [
+        [
+          4545.237793,
+          339.024902,
+          9513.143555
+        ],
+        [
+          4480.821777,
+          339.024902,
+          9536.15918
+        ],
+        [
+          4431.781738,
+          338.961426,
+          9574.875
+        ],
+        [
+          4432.458984,
+          338.966064,
+          9649.104492
+        ],
+        [
+          4454.162598,
+          339.024811,
+          9660.483398
+        ],
+        [
+          4485.376953,
+          339.024933,
+          9617.033203
+        ],
+        [
+          4536.293457,
+          339.024963,
+          9595.610352
+        ]
+      ]
+    },
+    {
+      "Name": "AI-NWAF-West-II",
+      "Persist": 0,
+      "Faction": "Shamans",
+      "Formation": "RANDOM",
+      "FormationScale": 1.2,
+      "FormationLooseness": 1,
+      "Loadout": "TTSKOLoadout",
+      "Units": [],
+      "NumberOfAI": 3,
+      "NumberOfAIMax": 4,
+      "Behaviour": "LOOP_OR_ALTERNATE",
+      "LootingBehaviour": "NONE",
+      "Speed": "WALK",
+      "UnderThreatSpeed": "JOG",
+      "DefaultStance": "STANDING",
+      "DefaultLookAngle": 0,
+      "CanBeLooted": 1,
+      "LootDropOnDeath": "",
+      "UnlimitedReload": 1,
+      "SniperProneDistanceThreshold": 150,
+      "AccuracyMin": 0.70,
+      "AccuracyMax": 0.82,
+      "ThreatDistanceLimit": -1,
+      "NoiseInvestigationDistanceLimit": -1,
+      "MaxFlankingDistance": -1,
+      "EnableFlankingOutsideCombat": -1,
+      "DamageMultiplier": -1,
+      "DamageReceivedMultiplier": -1,
+      "HeadshotResistance": 0,
+      "ShoryukenChance": 0,
+      "ShoryukenDamageMultiplier": 0,
+      "CanSpawnInContaminatedArea": 0,
+      "CanBeTriggeredByAI": 0,
+      "MinDistRadius": -1,
+      "MaxDistRadius": -1,
+      "DespawnRadius": -1,
+      "MinSpreadRadius": 1,
+      "MaxSpreadRadius": 2,
+      "Chance": 1,
+      "DespawnTime": -1,
+      "RespawnTime": -2,
+      "LoadBalancingCategory": "Global",
+      "ObjectClassName": "",
+      "WaypointInterpolation": "CatmullRom",
+      "UseRandomWaypointAsStartPoint": 1,
+      "Waypoints": [
+        [
+          4434.702148,
+          339.093201,
+          9910.698242
+        ],
+        [
+          4375.008301,
+          338.84964,
+          9987.086914
+        ],
+        [
+          4288.543457,
+          340.229218,
+          10077.516602
+        ],
+        [
+          4213.478027,
+          340.900208,
+          10139.507813
+        ],
+        [
+          4155.76709,
+          342.249359,
+          10168.178711
+        ]
+      ]
+    },
+    {
+      "Name": "AI-NWAF-Center",
+      "Persist": 0,
+      "Faction": "Shamans",
+      "Formation": "RANDOM",
+      "FormationScale": 1.2,
+      "FormationLooseness": 1,
+      "Loadout": "TTSKOLoadout",
+      "Units": [],
+      "NumberOfAI": 3,
+      "NumberOfAIMax": 4,
+      "Behaviour": "LOOP_OR_ALTERNATE",
+      "LootingBehaviour": "NONE",
+      "Speed": "WALK",
+      "UnderThreatSpeed": "JOG",
+      "DefaultStance": "STANDING",
+      "DefaultLookAngle": 0,
+      "CanBeLooted": 1,
+      "LootDropOnDeath": "",
+      "UnlimitedReload": 1,
+      "SniperProneDistanceThreshold": 150,
+      "AccuracyMin": 0.70,
+      "AccuracyMax": 0.82,
+      "ThreatDistanceLimit": -1,
+      "NoiseInvestigationDistanceLimit": -1,
+      "MaxFlankingDistance": -1,
+      "EnableFlankingOutsideCombat": -1,
+      "DamageMultiplier": -1,
+      "DamageReceivedMultiplier": -1,
+      "HeadshotResistance": 0,
+      "ShoryukenChance": 0,
+      "ShoryukenDamageMultiplier": 0,
+      "CanSpawnInContaminatedArea": 0,
+      "CanBeTriggeredByAI": 0,
+      "MinDistRadius": -1,
+      "MaxDistRadius": -1,
+      "DespawnRadius": -1,
+      "MinSpreadRadius": 1,
+      "MaxSpreadRadius": 2,
+      "Chance": 1,
+      "DespawnTime": -1,
+      "RespawnTime": -2,
+      "LoadBalancingCategory": "Global",
+      "ObjectClassName": "",
+      "WaypointInterpolation": "CatmullRom",
+      "UseRandomWaypointAsStartPoint": 1,
+      "Waypoints": [
+        [
+          4083.228271,
+          342.75061,
+          11197.864258
+        ],
+        [
+          4186.724609,
+          338.434967,
+          11111.40625
+        ],
+        [
+          4133.77002,
+          338.416595,
+          11066.397461
+        ],
+        [
+          4045.879883,
+          338.422791,
+          11118.286133
+        ]
+      ]
+    },
+    {
+      "Name": "AI-NWAF-North",
+      "Persist": 0,
+      "Faction": "Shamans",
+      "Formation": "RANDOM",
+      "FormationScale": 1.2,
+      "FormationLooseness": 1,
+      "Loadout": "TTSKOLoadout",
+      "Units": [],
+      "NumberOfAI": 4,
+      "NumberOfAIMax": 5,
+      "Behaviour": "LOOP_OR_ALTERNATE",
+      "LootingBehaviour": "NONE",
+      "Speed": "WALK",
+      "UnderThreatSpeed": "JOG",
+      "DefaultStance": "STANDING",
+      "DefaultLookAngle": 0,
+      "CanBeLooted": 1,
+      "LootDropOnDeath": "",
+      "UnlimitedReload": 1,
+      "SniperProneDistanceThreshold": 150,
+      "AccuracyMin": 0.70,
+      "AccuracyMax": 0.82,
+      "ThreatDistanceLimit": -1,
+      "NoiseInvestigationDistanceLimit": -1,
+      "MaxFlankingDistance": -1,
+      "EnableFlankingOutsideCombat": -1,
+      "DamageMultiplier": -1,
+      "DamageReceivedMultiplier": -1,
+      "HeadshotResistance": 0,
+      "ShoryukenChance": 0,
+      "ShoryukenDamageMultiplier": 0,
+      "CanSpawnInContaminatedArea": 0,
+      "CanBeTriggeredByAI": 0,
+      "MinDistRadius": -1,
+      "MaxDistRadius": -1,
+      "DespawnRadius": -1,
+      "MinSpreadRadius": 1,
+      "MaxSpreadRadius": 2,
+      "Chance": 1,
+      "DespawnTime": -1,
+      "RespawnTime": -2,
+      "LoadBalancingCategory": "Global",
+      "ObjectClassName": "",
+      "WaypointInterpolation": "CatmullRom",
+      "UseRandomWaypointAsStartPoint": 1,
+      "Waypoints": [
+        [
+          4174.711426,
+          384.20578,
+          11754.766602
+        ],
+        [
+          4148.117676,
+          384.124481,
+          11787.908203
+        ],
+        [
+          4058.021484,
+          380.222412,
+          11806.479492
+        ],
+        [
+          4012.866211,
+          376.168915,
+          11746.896484
+        ],
+        [
+          3958.814941,
+          369.101868,
+          11702.043945
+        ],
+        [
+          4034.374512,
+          369.82486,
+          11620.719727
+        ],
+        [
+          4104.595703,
+          373.811981,
+          11670.375977
+        ]
+      ]
+    },
+    {
+      "Name": "AI-NWAF-North-II",
+      "Persist": 0,
+      "Faction": "Shamans",
+      "Formation": "RANDOM",
+      "FormationScale": 1.2,
+      "FormationLooseness": 1,
+      "Loadout": "TTSKOLoadout",
+      "Units": [],
+      "NumberOfAI": 2,
+      "NumberOfAIMax": 3,
+      "Behaviour": "LOOP_OR_ALTERNATE",
+      "LootingBehaviour": "NONE",
+      "Speed": "WALK",
+      "UnderThreatSpeed": "JOG",
+      "DefaultStance": "STANDING",
+      "DefaultLookAngle": 0,
+      "CanBeLooted": 1,
+      "LootDropOnDeath": "",
+      "UnlimitedReload": 1,
+      "SniperProneDistanceThreshold": 150,
+      "AccuracyMin": 0.70,
+      "AccuracyMax": 0.82,
+      "ThreatDistanceLimit": -1,
+      "NoiseInvestigationDistanceLimit": -1,
+      "MaxFlankingDistance": -1,
+      "EnableFlankingOutsideCombat": -1,
+      "DamageMultiplier": -1,
+      "DamageReceivedMultiplier": -1,
+      "HeadshotResistance": 0,
+      "ShoryukenChance": 0,
+      "ShoryukenDamageMultiplier": 0,
+      "CanSpawnInContaminatedArea": 0,
+      "CanBeTriggeredByAI": 0,
+      "MinDistRadius": -1,
+      "MaxDistRadius": -1,
+      "DespawnRadius": -1,
+      "MinSpreadRadius": 1,
+      "MaxSpreadRadius": 2,
+      "Chance": 1,
+      "DespawnTime": -1,
+      "RespawnTime": -2,
+      "LoadBalancingCategory": "Global",
+      "ObjectClassName": "",
+      "WaypointInterpolation": "CatmullRom",
+      "UseRandomWaypointAsStartPoint": 1,
+      "Waypoints": [
+        [
+          4244.583496,
+          374.54892,
+          11525.904297
+        ],
+        [
+          4240.887207,
+          376.881104,
+          11548.105469
+        ],
+        [
+          4172.104492,
+          374.40213,
+          11591.307617
+        ],
+        [
+          4109.793457,
+          367.827423,
+          11523.665039
+        ],
+        [
+          4199.500977,
+          365.622253,
+          11473.68457
+        ],
+        [
+          4220.643066,
+          374.695953,
+          11505.017578
+        ]
+      ]
+    },
+    {
+      "Name": "AI-NWAF-East",
+      "Persist": 0,
+      "Faction": "Shamans",
+      "Formation": "RANDOM",
+      "FormationScale": 1.2,
+      "FormationLooseness": 1,
+      "Loadout": "TTSKOLoadout",
+      "Units": [],
+      "NumberOfAI": 2,
+      "NumberOfAIMax": 3,
+      "Behaviour": "LOOP_OR_ALTERNATE",
+      "LootingBehaviour": "NONE",
+      "Speed": "WALK",
+      "UnderThreatSpeed": "JOG",
+      "DefaultStance": "STANDING",
+      "DefaultLookAngle": 0,
+      "CanBeLooted": 1,
+      "LootDropOnDeath": "",
+      "UnlimitedReload": 1,
+      "SniperProneDistanceThreshold": 150,
+      "AccuracyMin": 0.70,
+      "AccuracyMax": 0.82,
+      "ThreatDistanceLimit": -1,
+      "NoiseInvestigationDistanceLimit": -1,
+      "MaxFlankingDistance": -1,
+      "EnableFlankingOutsideCombat": -1,
+      "DamageMultiplier": -1,
+      "DamageReceivedMultiplier": -1,
+      "HeadshotResistance": 0,
+      "ShoryukenChance": 0,
+      "ShoryukenDamageMultiplier": 0,
+      "CanSpawnInContaminatedArea": 0,
+      "CanBeTriggeredByAI": 0,
+      "MinDistRadius": -1,
+      "MaxDistRadius": -1,
+      "DespawnRadius": -1,
+      "MinSpreadRadius": 1,
+      "MaxSpreadRadius": 2,
+      "Chance": 1,
+      "DespawnTime": -1,
+      "RespawnTime": -2,
+      "LoadBalancingCategory": "Global",
+      "ObjectClassName": "",
+      "WaypointInterpolation": "CatmullRom",
+      "UseRandomWaypointAsStartPoint": 1,
+      "Waypoints": [
+        [
+          5316.925781,
+          336.949921,
+          9759.195313
+        ],
+        [
+          5318.512207,
+          336.774963,
+          9826.78125
+        ],
+        [
+          5295.620117,
+          336.903046,
+          9844.436523
+        ],
+        [
+          5315.731445,
+          332.448944,
+          9884.045898
+        ],
+        [
+          5373.119629,
+          332.774384,
+          9884.980469
+        ],
+        [
+          5394.818848,
+          332.947479,
+          9799.704102
+        ],
+        [
+          5357.005859,
+          337.022888,
+          9767.882813
+        ]
+      ]
+    },
+    {
+      "Name": "AI-Tisy-Range",
+      "Persist": 0,
+      "Faction": "Shamans",
+      "Formation": "RANDOM",
+      "FormationScale": 1.2,
+      "FormationLooseness": 1,
+      "Loadout": "TTSKOLoadout",
+      "Units": [],
+      "NumberOfAI": 2,
+      "NumberOfAIMax": 3,
+      "Behaviour": "LOOP_OR_ALTERNATE",
+      "LootingBehaviour": "NONE",
+      "Speed": "WALK",
+      "UnderThreatSpeed": "JOG",
+      "DefaultStance": "STANDING",
+      "DefaultLookAngle": 0,
+      "CanBeLooted": 1,
+      "LootDropOnDeath": "",
+      "UnlimitedReload": 1,
+      "SniperProneDistanceThreshold": 150,
+      "AccuracyMin": 0.70,
+      "AccuracyMax": 0.82,
+      "ThreatDistanceLimit": -1,
+      "NoiseInvestigationDistanceLimit": -1,
+      "MaxFlankingDistance": -1,
+      "EnableFlankingOutsideCombat": -1,
+      "DamageMultiplier": -1,
+      "DamageReceivedMultiplier": -1,
+      "HeadshotResistance": 0,
+      "ShoryukenChance": 0,
+      "ShoryukenDamageMultiplier": 0,
+      "CanSpawnInContaminatedArea": 0,
+      "CanBeTriggeredByAI": 0,
+      "MinDistRadius": -1,
+      "MaxDistRadius": -1,
+      "DespawnRadius": -1,
+      "MinSpreadRadius": 1,
+      "MaxSpreadRadius": 2,
+      "Chance": 1,
+      "DespawnTime": -1,
+      "RespawnTime": -2,
+      "LoadBalancingCategory": "Global",
+      "ObjectClassName": "",
+      "WaypointInterpolation": "CatmullRom",
+      "UseRandomWaypointAsStartPoint": 1,
+      "Waypoints": [
+        [
+          1484.610718,
+          461.739288,
+          14422.978516
+        ],
+        [
+          1416.535645,
+          465.160828,
+          14375.30957
+        ],
+        [
+          1347.827637,
+          463.523407,
+          14410.861328
+        ],
+        [
+          1372.510254,
+          455.754883,
+          14463.5
+        ],
+        [
+          1427.595459,
+          452.114441,
+          14552.714844
+        ],
+        [
+          1536.666138,
+          458.817108,
+          14456.810547
+        ]
+      ]
+    },
+    {
+      "Name": "AI-Tisy-Entrance-I",
+      "Persist": 0,
+      "Faction": "Shamans",
+      "Formation": "RANDOM",
+      "FormationScale": 1.2,
+      "FormationLooseness": 1,
+      "Loadout": "TTSKOLoadout",
+      "Units": [],
+      "NumberOfAI": 2,
+      "NumberOfAIMax": 2,
+      "Behaviour": "LOOP_OR_ALTERNATE",
+      "LootingBehaviour": "NONE",
+      "Speed": "WALK",
+      "UnderThreatSpeed": "JOG",
+      "DefaultStance": "STANDING",
+      "DefaultLookAngle": 0,
+      "CanBeLooted": 1,
+      "LootDropOnDeath": "",
+      "UnlimitedReload": 1,
+      "SniperProneDistanceThreshold": 150,
+      "AccuracyMin": 0.70,
+      "AccuracyMax": 0.82,
+      "ThreatDistanceLimit": -1,
+      "NoiseInvestigationDistanceLimit": -1,
+      "MaxFlankingDistance": -1,
+      "EnableFlankingOutsideCombat": -1,
+      "DamageMultiplier": -1,
+      "DamageReceivedMultiplier": -1,
+      "HeadshotResistance": 0,
+      "ShoryukenChance": 0,
+      "ShoryukenDamageMultiplier": 0,
+      "CanSpawnInContaminatedArea": 0,
+      "CanBeTriggeredByAI": 0,
+      "MinDistRadius": -1,
+      "MaxDistRadius": -1,
+      "DespawnRadius": -1,
+      "MinSpreadRadius": 1,
+      "MaxSpreadRadius": 2,
+      "Chance": 1,
+      "DespawnTime": -1,
+      "RespawnTime": -2,
+      "LoadBalancingCategory": "Global",
+      "ObjectClassName": "",
+      "WaypointInterpolation": "CatmullRom",
+      "UseRandomWaypointAsStartPoint": 1,
+      "Waypoints": [
+        [
+          1720.500366,
+          451.754944,
+          14290.257813
+        ],
+        [
+          1715.594116,
+          451.754944,
+          14304.404297
+        ],
+        [
+          1671.398438,
+          451.754852,
+          14280.292969
+        ],
+        [
+          1691.286255,
+          451.754944,
+          14237.861328
+        ],
+        [
+          1719.605957,
+          451.744934,
+          14255.241211
+        ]
+      ]
+    },
+    {
+      "Name": "AI-Tisy-Main",
+      "Persist": 0,
+      "Faction": "Shamans",
+      "Formation": "RANDOM",
+      "FormationScale": 1.2,
+      "FormationLooseness": 1,
+      "Loadout": "TTSKOLoadout",
+      "Units": [],
+      "NumberOfAI": 3,
+      "NumberOfAIMax": 5,
+      "Behaviour": "LOOP_OR_ALTERNATE",
+      "LootingBehaviour": "NONE",
+      "Speed": "WALK",
+      "UnderThreatSpeed": "JOG",
+      "DefaultStance": "STANDING",
+      "DefaultLookAngle": 0,
+      "CanBeLooted": 1,
+      "LootDropOnDeath": "",
+      "UnlimitedReload": 1,
+      "SniperProneDistanceThreshold": 150,
+      "AccuracyMin": 0.70,
+      "AccuracyMax": 0.82,
+      "ThreatDistanceLimit": -1,
+      "NoiseInvestigationDistanceLimit": -1,
+      "MaxFlankingDistance": -1,
+      "EnableFlankingOutsideCombat": -1,
+      "DamageMultiplier": -1,
+      "DamageReceivedMultiplier": -1,
+      "HeadshotResistance": 0,
+      "ShoryukenChance": 0,
+      "ShoryukenDamageMultiplier": 0,
+      "CanSpawnInContaminatedArea": 0,
+      "CanBeTriggeredByAI": 0,
+      "MinDistRadius": -1,
+      "MaxDistRadius": -1,
+      "DespawnRadius": -1,
+      "MinSpreadRadius": 1,
+      "MaxSpreadRadius": 2,
+      "Chance": 1,
+      "DespawnTime": -1,
+      "RespawnTime": -2,
+      "LoadBalancingCategory": "Global",
+      "ObjectClassName": "",
+      "WaypointInterpolation": "CatmullRom",
+      "UseRandomWaypointAsStartPoint": 1,
+      "Waypoints": [
+        [
+          1665.649658,
+          451.754944,
+          14214.94043
+        ],
+        [
+          1701.370361,
+          451.754974,
+          14088.941406
+        ],
+        [
+          1620.291504,
+          451.892517,
+          13962.179688
+        ],
+        [
+          1533.883423,
+          453.699768,
+          14012.100586
+        ],
+        [
+          1605.94397,
+          451.754944,
+          14153.567383
+        ]
+      ]
+    },
+    {
+      "Name": "AI-Tisy-Patrol-I",
+      "Persist": 0,
+      "Faction": "Shamans",
+      "Formation": "RANDOM",
+      "FormationScale": 1.2,
+      "FormationLooseness": 1,
+      "Loadout": "TTSKOLoadout",
+      "Units": [],
+      "NumberOfAI": 2,
+      "NumberOfAIMax": 3,
+      "Behaviour": "LOOP_OR_ALTERNATE",
+      "LootingBehaviour": "NONE",
+      "Speed": "WALK",
+      "UnderThreatSpeed": "JOG",
+      "DefaultStance": "STANDING",
+      "DefaultLookAngle": 0,
+      "CanBeLooted": 1,
+      "LootDropOnDeath": "",
+      "UnlimitedReload": 1,
+      "SniperProneDistanceThreshold": 150,
+      "AccuracyMin": 0.70,
+      "AccuracyMax": 0.82,
+      "ThreatDistanceLimit": -1,
+      "NoiseInvestigationDistanceLimit": -1,
+      "MaxFlankingDistance": -1,
+      "EnableFlankingOutsideCombat": -1,
+      "DamageMultiplier": -1,
+      "DamageReceivedMultiplier": -1,
+      "HeadshotResistance": 0,
+      "ShoryukenChance": 0,
+      "ShoryukenDamageMultiplier": 0,
+      "CanSpawnInContaminatedArea": 0,
+      "CanBeTriggeredByAI": 0,
+      "MinDistRadius": -1,
+      "MaxDistRadius": -1,
+      "DespawnRadius": -1,
+      "MinSpreadRadius": 1,
+      "MaxSpreadRadius": 2,
+      "Chance": 1,
+      "DespawnTime": -1,
+      "RespawnTime": -2,
+      "LoadBalancingCategory": "Global",
+      "ObjectClassName": "",
+      "WaypointInterpolation": "CatmullRom",
+      "UseRandomWaypointAsStartPoint": 1,
+      "Waypoints": [
+        [
+          1554.487793,
+          452.828461,
+          14106.734375
+        ],
+        [
+          1506.275513,
+          455.635406,
+          14135.911133
+        ],
+        [
+          1442.57019,
+          461.58078,
+          14135.167969
+        ],
+        [
+          1374.822266,
+          465.492859,
+          14124.973633
+        ],
+        [
+          1333.40625,
+          463.950836,
+          14062.519531
+        ],
+        [
+          1409.299194,
+          461.309448,
+          14034.609375
+        ],
+        [
+          1463.128906,
+          459.478149,
+          13952.526367
+        ],
+        [
+          1524.818604,
+          453.696228,
+          13977.893555
+        ],
+        [
+          1568.671631,
+          452.794952,
+          14076.394531
+        ]
+      ]
+    },
+    {
+      "Name": "AI-Tisy-Patrol-II",
+      "Persist": 0,
+      "Faction": "Shamans",
+      "Formation": "RANDOM",
+      "FormationScale": 1.2,
+      "FormationLooseness": 1,
+      "Loadout": "TTSKOLoadout",
+      "Units": [],
+      "NumberOfAI": 2,
+      "NumberOfAIMax": 3,
+      "Behaviour": "LOOP_OR_ALTERNATE",
+      "LootingBehaviour": "NONE",
+      "Speed": "WALK",
+      "UnderThreatSpeed": "JOG",
+      "DefaultStance": "STANDING",
+      "DefaultLookAngle": 0,
+      "CanBeLooted": 1,
+      "LootDropOnDeath": "",
+      "UnlimitedReload": 1,
+      "SniperProneDistanceThreshold": 150,
+      "AccuracyMin": 0.70,
+      "AccuracyMax": 0.82,
+      "ThreatDistanceLimit": -1,
+      "NoiseInvestigationDistanceLimit": -1,
+      "MaxFlankingDistance": -1,
+      "EnableFlankingOutsideCombat": -1,
+      "DamageMultiplier": -1,
+      "DamageReceivedMultiplier": -1,
+      "HeadshotResistance": 0,
+      "ShoryukenChance": 0,
+      "ShoryukenDamageMultiplier": 0,
+      "CanSpawnInContaminatedArea": 0,
+      "CanBeTriggeredByAI": 0,
+      "MinDistRadius": -1,
+      "MaxDistRadius": -1,
+      "DespawnRadius": -1,
+      "MinSpreadRadius": 1,
+      "MaxSpreadRadius": 2,
+      "Chance": 1,
+      "DespawnTime": -1,
+      "RespawnTime": -2,
+      "LoadBalancingCategory": "Global",
+      "ObjectClassName": "",
+      "WaypointInterpolation": "CatmullRom",
+      "UseRandomWaypointAsStartPoint": 1,
+      "Waypoints": [
+        [
+          1704.953979,
+          448.46994,
+          13974.425781
+        ],
+        [
+          1751.545898,
+          445.366028,
+          13911.222656
+        ],
+        [
+          1805.190552,
+          435.758301,
+          13802.806641
+        ],
+        [
+          1763.979492,
+          434.273102,
+          13669.75
+        ],
+        [
+          1647.391479,
+          436.737244,
+          13595.483398
+        ],
+        [
+          1593.758301,
+          437.709259,
+          13579.223633
+        ],
+        [
+          1567.999878,
+          441.113495,
+          13645.054688
+        ],
+        [
+          1625.917114,
+          451.448853,
+          13953.870117
+        ],
+        [
+          1689.97998,
+          451.725739,
+          14071.833984
+        ]
+      ]
+    },
+    {
+      "Name": "AI-Tisy-Patrol-III",
+      "Persist": 0,
+      "Faction": "Shamans",
+      "Formation": "RANDOM",
+      "FormationScale": 1.2,
+      "FormationLooseness": 1,
+      "Loadout": "TTSKOLoadout",
+      "Units": [],
+      "NumberOfAI": 2,
+      "NumberOfAIMax": 3,
+      "Behaviour": "LOOP_OR_ALTERNATE",
+      "LootingBehaviour": "NONE",
+      "Speed": "WALK",
+      "UnderThreatSpeed": "JOG",
+      "DefaultStance": "STANDING",
+      "DefaultLookAngle": 0,
+      "CanBeLooted": 1,
+      "LootDropOnDeath": "",
+      "UnlimitedReload": 1,
+      "SniperProneDistanceThreshold": 150,
+      "AccuracyMin": 0.70,
+      "AccuracyMax": 0.82,
+      "ThreatDistanceLimit": -1,
+      "NoiseInvestigationDistanceLimit": -1,
+      "MaxFlankingDistance": -1,
+      "EnableFlankingOutsideCombat": -1,
+      "DamageMultiplier": -1,
+      "DamageReceivedMultiplier": -1,
+      "HeadshotResistance": 0,
+      "ShoryukenChance": 0,
+      "ShoryukenDamageMultiplier": 0,
+      "CanSpawnInContaminatedArea": 0,
+      "CanBeTriggeredByAI": 0,
+      "MinDistRadius": -1,
+      "MaxDistRadius": -1,
+      "DespawnRadius": -1,
+      "MinSpreadRadius": 1,
+      "MaxSpreadRadius": 2,
+      "Chance": 1,
+      "DespawnTime": -1,
+      "RespawnTime": -2,
+      "LoadBalancingCategory": "Global",
+      "ObjectClassName": "",
+      "WaypointInterpolation": "CatmullRom",
+      "UseRandomWaypointAsStartPoint": 1,
+      "Waypoints": [
+        [
+          2137.31543,
+          405.791321,
+          13737.720703
+        ],
+        [
+          2089.219727,
+          417.804962,
+          13785.94043
+        ],
+        [
+          2006.177124,
+          430.258575,
+          13801.056641
+        ],
+        [
+          1861.127808,
+          434.384064,
+          13821.703125
+        ]
+      ]
+    },
+    {
+      "Name": "AI-Tisy-Patrol-IV",
+      "Persist": 0,
+      "Faction": "Shamans",
+      "Formation": "RANDOM",
+      "FormationScale": 1.2,
+      "FormationLooseness": 1,
+      "Loadout": "TTSKOLoadout",
+      "Units": [],
+      "NumberOfAI": 2,
+      "NumberOfAIMax": 3,
+      "Behaviour": "LOOP_OR_ALTERNATE",
+      "LootingBehaviour": "NONE",
+      "Speed": "WALK",
+      "UnderThreatSpeed": "JOG",
+      "DefaultStance": "STANDING",
+      "DefaultLookAngle": 0,
+      "CanBeLooted": 1,
+      "LootDropOnDeath": "",
+      "UnlimitedReload": 1,
+      "SniperProneDistanceThreshold": 150,
+      "AccuracyMin": 0.70,
+      "AccuracyMax": 0.82,
+      "ThreatDistanceLimit": -1,
+      "NoiseInvestigationDistanceLimit": -1,
+      "MaxFlankingDistance": -1,
+      "EnableFlankingOutsideCombat": -1,
+      "DamageMultiplier": -1,
+      "DamageReceivedMultiplier": -1,
+      "HeadshotResistance": 0,
+      "ShoryukenChance": 0,
+      "ShoryukenDamageMultiplier": 0,
+      "CanSpawnInContaminatedArea": 0,
+      "CanBeTriggeredByAI": 0,
+      "MinDistRadius": -1,
+      "MaxDistRadius": -1,
+      "DespawnRadius": -1,
+      "MinSpreadRadius": 1,
+      "MaxSpreadRadius": 2,
+      "Chance": 1,
+      "DespawnTime": -1,
+      "RespawnTime": -2,
+      "LoadBalancingCategory": "Global",
+      "ObjectClassName": "",
+      "WaypointInterpolation": "CatmullRom",
+      "UseRandomWaypointAsStartPoint": 1,
+      "Waypoints": [
+        [
+          1029.654297,
+          470.737671,
+          13880.31543
+        ],
+        [
+          1093.462158,
+          469.547241,
+          13928.74707
+        ]
+      ]
+    },
+    {
+      "Name": "AI-Kamensk-I",
+      "Persist": 0,
+      "Faction": "Shamans",
+      "Formation": "RANDOM",
+      "FormationScale": 1.2,
+      "FormationLooseness": 1,
+      "Loadout": "TTSKOLoadout",
+      "Units": [],
+      "NumberOfAI": 3,
+      "NumberOfAIMax": 4,
+      "Behaviour": "LOOP_OR_ALTERNATE",
+      "LootingBehaviour": "NONE",
+      "Speed": "WALK",
+      "UnderThreatSpeed": "JOG",
+      "DefaultStance": "STANDING",
+      "DefaultLookAngle": 0,
+      "CanBeLooted": 1,
+      "LootDropOnDeath": "",
+      "UnlimitedReload": 1,
+      "SniperProneDistanceThreshold": 150,
+      "AccuracyMin": 0.70,
+      "AccuracyMax": 0.82,
+      "ThreatDistanceLimit": -1,
+      "NoiseInvestigationDistanceLimit": -1,
+      "MaxFlankingDistance": -1,
+      "EnableFlankingOutsideCombat": -1,
+      "DamageMultiplier": -1,
+      "DamageReceivedMultiplier": -1,
+      "HeadshotResistance": 0,
+      "ShoryukenChance": 0,
+      "ShoryukenDamageMultiplier": 0,
+      "CanSpawnInContaminatedArea": 0,
+      "CanBeTriggeredByAI": 0,
+      "MinDistRadius": -1,
+      "MaxDistRadius": -1,
+      "DespawnRadius": -1,
+      "MinSpreadRadius": 1,
+      "MaxSpreadRadius": 2,
+      "Chance": 1,
+      "DespawnTime": -1,
+      "RespawnTime": -2,
+      "LoadBalancingCategory": "Global",
+      "ObjectClassName": "",
+      "WaypointInterpolation": "CatmullRom",
+      "UseRandomWaypointAsStartPoint": 1,
+      "Waypoints": [
+        [
+          8006.618164,
+          339.632294,
+          14633.779297
+        ],
+        [
+          7881.625977,
+          343.569,
+          14717.478516
+        ],
+        [
+          7815.205566,
+          356.041138,
+          14797.108398
+        ],
+        [
+          7733.479492,
+          360.682678,
+          14840.972656
+        ]
+      ]
+    },
+    {
+      "Name": "AI-TriKresta-I",
+      "Persist": 0,
+      "Faction": "Shamans",
+      "Formation": "RANDOM",
+      "FormationScale": 1,
+      "FormationLooseness": 1,
+      "Loadout": "TTSKOLoadout",
+      "Units": [],
+      "NumberOfAI": 3,
+      "NumberOfAIMax": 4,
+      "Behaviour": "RANDOM",
+      "LootingBehaviour": "NONE",
+      "Speed": "WALK",
+      "UnderThreatSpeed": "RUN",
+      "DefaultStance": "STANDING",
+      "DefaultLookAngle": 0,
+      "CanBeLooted": 1,
+      "LootDropOnDeath": "",
+      "UnlimitedReload": 1,
+      "SniperProneDistanceThreshold": 300,
+      "AccuracyMin": 0.70,
+      "AccuracyMax": 0.82,
+      "ThreatDistanceLimit": -1,
+      "NoiseInvestigationDistanceLimit": -1,
+      "MaxFlankingDistance": -1,
+      "EnableFlankingOutsideCombat": -1,
+      "DamageMultiplier": -1,
+      "DamageReceivedMultiplier": -1,
+      "HeadshotResistance": 0,
+      "ShoryukenChance": 0,
+      "ShoryukenDamageMultiplier": 0,
+      "CanSpawnInContaminatedArea": 0,
+      "CanBeTriggeredByAI": 0,
+      "MinDistRadius": -1,
+      "MaxDistRadius": -1,
+      "DespawnRadius": -1,
+      "MinSpreadRadius": 1,
+      "MaxSpreadRadius": 2,
+      "Chance": 1,
+      "DespawnTime": -1,
+      "RespawnTime": -2,
+      "LoadBalancingCategory": "Global",
+      "ObjectClassName": "",
+      "WaypointInterpolation": "CatmullRom",
+      "UseRandomWaypointAsStartPoint": 1,
+      "Waypoints": [
+        [
+          323.482666,
+          295.156952,
+          9309.557617
+        ],
+        [
+          339.503784,
+          295.071808,
+          9334.121094
+        ],
+        [
+          360.148773,
+          294.637848,
+          9351.570313
+        ],
+        [
+          368.595856,
+          294.748413,
+          9385.791016
+        ],
+        [
+          355.999939,
+          294.85849,
+          9392.686523
+        ],
+        [
+          345.827942,
+          294.774841,
+          9365.381836
+        ],
+        [
+          346.933289,
+          294.778687,
+          9355.263672
+        ],
+        [
+          335.093506,
+          295.144897,
+          9329.198242
+        ],
+        [
+          324.239441,
+          295.135651,
+          9331.157227
+        ]
+      ]
+    },
+    {
+      "Name": "AI-TriKresta-II",
+      "Persist": 0,
+      "Faction": "Shamans",
+      "Formation": "RANDOM",
+      "FormationScale": 1,
+      "FormationLooseness": 1,
+      "Loadout": "TTSKOLoadout",
+      "Units": [],
+      "NumberOfAI": 2,
+      "NumberOfAIMax": 3,
+      "Behaviour": "RANDOM",
+      "LootingBehaviour": "NONE",
+      "Speed": "WALK",
+      "UnderThreatSpeed": "RUN",
+      "DefaultStance": "STANDING",
+      "DefaultLookAngle": 0,
+      "CanBeLooted": 1,
+      "LootDropOnDeath": "",
+      "UnlimitedReload": 1,
+      "SniperProneDistanceThreshold": 300,
+      "AccuracyMin": 0.70,
+      "AccuracyMax": 0.82,
+      "ThreatDistanceLimit": -1,
+      "NoiseInvestigationDistanceLimit": -1,
+      "MaxFlankingDistance": -1,
+      "EnableFlankingOutsideCombat": -1,
+      "DamageMultiplier": -1,
+      "DamageReceivedMultiplier": -1,
+      "HeadshotResistance": 0,
+      "ShoryukenChance": 0,
+      "ShoryukenDamageMultiplier": 0,
+      "CanSpawnInContaminatedArea": 0,
+      "CanBeTriggeredByAI": 0,
+      "MinDistRadius": -1,
+      "MaxDistRadius": -1,
+      "DespawnRadius": -1,
+      "MinSpreadRadius": 1,
+      "MaxSpreadRadius": 2,
+      "Chance": 1,
+      "DespawnTime": -1,
+      "RespawnTime": -2,
+      "LoadBalancingCategory": "Global",
+      "ObjectClassName": "",
+      "WaypointInterpolation": "CatmullRom",
+      "UseRandomWaypointAsStartPoint": 1,
+      "Waypoints": [
+        [
+          295.04718,
+          295.00827,
+          9352.318359
+        ],
+        [
+          273.842712,
+          295.004639,
+          9375.96582
+        ],
+        [
+          305.235626,
+          294.969727,
+          9426.457031
+        ],
+        [
+          330.437012,
+          295.93869,
+          9458.00293
+        ],
+        [
+          367.110291,
+          294.807739,
+          9463.651367
+        ]
+      ]
+    },
+    {
+      "Name": "AI-TriKresta-III",
+      "Persist": 0,
+      "Faction": "Shamans",
+      "Formation": "RANDOM",
+      "FormationScale": 1,
+      "FormationLooseness": 1,
+      "Loadout": "TTSKOLoadout",
+      "Units": [],
+      "NumberOfAI": 1,
+      "NumberOfAIMax": 2,
+      "Behaviour": "RANDOM",
+      "LootingBehaviour": "NONE",
+      "Speed": "WALK",
+      "UnderThreatSpeed": "RUN",
+      "DefaultStance": "STANDING",
+      "DefaultLookAngle": 0,
+      "CanBeLooted": 1,
+      "LootDropOnDeath": "",
+      "UnlimitedReload": 1,
+      "SniperProneDistanceThreshold": 300,
+      "AccuracyMin": 0.70,
+      "AccuracyMax": 0.82,
+      "ThreatDistanceLimit": -1,
+      "NoiseInvestigationDistanceLimit": -1,
+      "MaxFlankingDistance": -1,
+      "EnableFlankingOutsideCombat": -1,
+      "DamageMultiplier": -1,
+      "DamageReceivedMultiplier": -1,
+      "HeadshotResistance": 0,
+      "ShoryukenChance": 0,
+      "ShoryukenDamageMultiplier": 0,
+      "CanSpawnInContaminatedArea": 0,
+      "CanBeTriggeredByAI": 0,
+      "MinDistRadius": -1,
+      "MaxDistRadius": -1,
+      "DespawnRadius": -1,
+      "MinSpreadRadius": 1,
+      "MaxSpreadRadius": 2,
+      "Chance": 1,
+      "DespawnTime": -1,
+      "RespawnTime": -2,
+      "LoadBalancingCategory": "Global",
+      "ObjectClassName": "",
+      "WaypointInterpolation": "CatmullRom",
+      "UseRandomWaypointAsStartPoint": 1,
+      "Waypoints": [
+        [
+          306.818665,
+          329.196777,
+          9563.442383
+        ],
+        [
+          290.964264,
+          315.577454,
+          9515.320313
+        ]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "m_Version": 8,
+  "m_TraderID": 1,
+  "m_ClassName": "ExpansionP2PTraderAIIrena",
+  "m_Position": [
+    9772.741211, 
+    168.491562, 
+    7742.991211
+  ],
+  "m_Orientation": [
+    52.875683,
+    0,
+    0
+  ],
+  "m_LoadoutFile": "YellowKingLoadout",
+  "m_VehicleSpawnPosition": [
+    9794.397461, 
+    170.821060, 
+    7772.024414
+  ],
+  "m_WatercraftSpawnPosition": [
+    0,
+    0,
+    0
+  ],
+  "m_AircraftSpawnPosition": [
+    9896.689453, 
+    169.445038, 
+    7725.082031
+  ],
+  "m_DisplayName": "Unknown",
+  "m_DisplayIcon": "Deliver",
+  "m_Faction": "InvincibleObservers",
+  "m_Waypoints": [],
+  "m_EmoteID": 46,
+  "m_EmoteIsStatic": 0,
+  "m_RequiredFaction": "",
+  "m_UseReputation": 0,
+  "m_MinRequiredReputation": 0,
+  "m_MaxRequiredReputation": 2147483647,
+  "m_RequiredCompletedQuestID": -1,
+  "m_IsGlobalTrader": 1,
+  "m_Currencies": [
+    "expansionbanknotehryvnia"
+  ],
+  "m_DisplayCurrencyValue": 1,
+  "m_DisplayCurrencyName": ""
+}

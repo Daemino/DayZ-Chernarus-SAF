@@ -1,0 +1,283 @@
+{
+  "m_Version": 7,
+  "SpawnLocations": [
+    {
+      "Name": "North Side",
+      "Positions": [
+        [
+          14835.169922,
+          71.897499,
+          14580.34375
+        ],
+        [
+          14827.806641,
+          72.356194,
+          14580.973633
+        ],
+        [
+          14829.777344,
+          72.262672,
+          14573.417969
+        ],
+        [
+          14836.449219,
+          71.878914,
+          14572.285156
+        ]
+      ],
+      "UseCooldown": 0
+    },
+    {
+      "Name": "Berezhki Village",
+      "Positions": [
+        [
+          15084.632813,
+          30.414568,
+          13908.077148
+        ],
+        [
+          15152.931641,
+          26.939741,
+          13916.981445
+        ],
+        [
+          15230.057617,
+          11.364381,
+          13877.871094
+        ]
+      ],
+      "UseCooldown": 0
+    },
+    {
+      "Name": "Svetloyarsk Port",
+      "Positions": [
+        [
+          14401.681641,
+          3.258444,
+          13286.738281
+        ],
+        [
+          14371.341797,
+          13.56483,
+          13347.402344
+        ],
+        [
+          14282.081055,
+          3.849581,
+          13044.430664
+        ]
+      ],
+      "UseCooldown": 0
+    },
+    {
+      "Name": "Olsha Forest",
+      "Positions": [
+        [
+          13438.299805,
+          84.56707,
+          12574.799805
+        ],
+        [
+          13356.339844,
+          96.5019,
+          12570.608398
+        ],
+        [
+          13887.694336,
+          32.412457,
+          12375.716797
+        ]
+      ],
+      "UseCooldown": 0
+    },
+    {
+      "Name": "Berezino Cemetery",
+      "Positions": [
+        [
+          12960.748047,
+          5.070149,
+          10533.380859
+        ],
+        [
+          13075.665039,
+          5.873428,
+          10605.642578
+        ],
+        [
+          12984.529297,
+          11.021019,
+          10614.484375
+        ]
+      ],
+      "UseCooldown": 0
+    },
+    {
+      "Name": "Nizhneye Coast",
+      "Positions": [
+        [
+          13060.306641,
+          6.136521,
+          8341.325195
+        ],
+        [
+          12929.197266,
+          5.388984,
+          8669.165039
+        ],
+        [
+          13055.796875,
+          4.71651,
+          8249.202148
+        ]
+      ],
+      "UseCooldown": 0
+    },
+    {
+      "Name": "Solnechny Outskirts",
+      "Positions": [
+        [
+          13144.466797,
+          4.680342,
+          7534.821777
+        ],
+        [
+          13308.988281,
+          5.644142,
+          7005.421875
+        ],
+        [
+          12723.856445,
+          88.319305,
+          7158.97168
+        ],
+        [
+          13130.604492,
+          134.008636,
+          5916.210449
+        ]
+      ],
+      "UseCooldown": 0
+    },
+    {
+      "Name": "Mys Krutoy",
+      "Positions": [
+        [
+          13612.299805,
+          14.428064,
+          4073.719971
+        ],
+        [
+          13239.132813,
+          4.17354,
+          3914.475342
+        ],
+        [
+          13383.091797,
+          12.081585,
+          4380.467285
+        ],
+        [
+          13562.071289,
+          8.68015,
+          4181.156738
+        ],
+        [
+          12289.200195,
+          172.245346,
+          3913.980469
+        ]
+      ],
+      "UseCooldown": 0
+    }
+  ],
+  "StartingClothing": {
+    "EnableCustomClothing": 1,
+    "SetRandomHealth": 0,
+    "Headgear": [
+      "BeanieHat_Beige",
+      "BeanieHat_Black",
+      "BeanieHat_Blue",
+      "BeanieHat_Brown",
+      "BeanieHat_Green",
+      "BeanieHat_Grey",
+      "BeanieHat_Pink",
+      "BeanieHat_Red"
+    ],
+    "Glasses": [],
+    "Masks": [],
+    "Tops": [
+      "Sweater_Blue",
+      "Sweater_Gray",
+      "Sweater_Green",
+      "Sweater_Red"
+    ],
+    "Vests": [],
+    "Gloves": [],
+    "Pants": [
+      "NavyUniformPants"
+    ],
+    "Belts": [],
+    "Shoes": [
+      "AthleticShoes_Blue",
+      "AthleticShoes_Grey",
+      "AthleticShoes_Brown",
+      "AthleticShoes_Green",
+      "AthleticShoes_Black"
+    ],
+    "Armbands": [],
+    "Backpacks": [
+      "SlingBag_Black",
+      "SlingBag_Brown",
+      "SlingBag_Gray"
+    ]
+  },
+  "EnableSpawnSelection": 1,
+  "SpawnOnTerritory": 1,
+  "StartingGear": {
+    "EnableStartingGear": 1,
+    "ApplyEnergySources": 1,
+    "SetRandomHealth": 0,
+    "UpperGear": [
+      {
+        "ClassName": "BandageDressing",
+        "Quantity": -1,
+        "Attachments": []
+      }
+    ],
+    "PantsGear": [
+      {
+        "ClassName": "HuntingKnife",
+        "Quantity": 1,
+        "Attachments": []
+      }
+    ],
+    "BackpackGear": [],
+    "VestGear": [],
+    "PrimaryWeapon": {},
+    "SecondaryWeapon": {}
+  },
+  "UseLoadouts": 0,
+  "MaleLoadouts": [
+    {
+      "Loadout": "PlayerSurvivorLoadout",
+      "Chance": 1
+    }
+  ],
+  "FemaleLoadouts": [
+    {
+      "Loadout": "PlayerSurvivorLoadout",
+      "Chance": 1
+    }
+  ],
+  "SpawnHealthValue": 100,
+  "SpawnEnergyValue": 1500,
+  "SpawnWaterValue": 1500,
+  "EnableRespawnCooldowns": 1,
+  "RespawnCooldown": 120,
+  "TerritoryRespawnCooldown": 600,
+  "PunishMultispawn": 0,
+  "PunishCooldown": 20,
+  "PunishTimeframe": 300,
+  "CreateDeathMarker": 0,
+  "BackgroundImagePath": "DayZExpansion/SpawnSelection/GUI/textures/wood_background.edds"
+}
